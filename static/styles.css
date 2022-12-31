@@ -1,0 +1,195 @@
+/* index.html css */
+
+.login-container {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.logo {
+    font-size: 200px;
+    color: #151D3B;
+}
+
+.login-body {
+    background: #DADBBD;
+}
+
+#password-label {
+    margin: 0px;
+}
+
+#access-error {
+    margin: 20px;
+    color: #D82148
+}
+
+#submit-btn {
+    background-color: #6EBF8B !important;
+    outline: solid;
+    outline-color: #00000 !important;
+    margin: auto;
+}
+
+#submit-btn:hover {
+    color: #D82148;
+}
+
+/* base.html css */
+
+.navbar {
+    background-color: #DADBBD;
+}
+
+.container {
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.base-body {
+    margin: auto;
+    font-family: 'Inter', sans-serif;
+}
+
+.nav-link  {
+    margin-left: 10px;
+}
+
+.form-inline {
+    margin-left: 10px;
+}
+
+#free-shipping {
+    font-size: medium;
+}
+
+.navbar a:hover {
+    color: red !important;  /* change this when youve sorted the navbar color */
+}
+
+/** Footer **/
+
+.nav a:hover {
+    color: red !important;
+}
+
+.footer {
+    padding: 20px 20px;
+    margin-top: 0 !important;
+}
+
+/* home.html css */
+
+/* carousel */
+
+#carousel-section {
+    padding: 2% 5%;
+    text-align: center;
+    background-color: #212529;
+}
+
+.carousel-item {
+    margin-right: 0px;
+    padding: 1%;
+}
+
+.home-carousel {
+    text-align: center;
+}
+
+/* featured consoles */
+
+#featured-consoles {
+    text-align: center;
+    background-color: #F7F7F7;
+    padding: 2%;
+}
+
+.featured-columns {
+    padding: 3% 2%;
+    margin: auto;
+}
+
+.card-img-top {
+    padding: 3%;
+}
+
+.title {
+    padding: 3%;
+}
+
+.card-footer {
+    background-color: #EB6440 !important;
+}
+
+#offer {
+    text-align: center;
+    padding: 1%;
+    background-color: #D6E4E5;
+}
+
+#info {
+    text-align: center;
+    margin-top: 1%;
+    padding: 1%;
+    background-color: #D1F5D3;
+}
+
+/* item page css */
+
+.container {
+    padding: 1%;
+    margin: 25px 75px 50px;
+}
+
+
+.description {
+    margin-top: 10px;
+    padding-bottom: 2%;
+    width: 70%;
+}
+
+.btn {
+    border-radius: 0 !important;
+}
+
+.img-fluid {
+    width: 100%;
+}
+
+hr {
+    width: 70%;
+}
+
+.btn-outline-dark {
+    margin-top: 2%;
+    border-radius: 0 !important;
+}
+
+.extra-info {
+    width: 70%;
+    padding: 0 !important;
+    border-top: solid !important;
+    border-right: none !important;
+    border-left: none !important;
+    border-bottom: none !important;
+    border-radius: 0 !important;
+}
+
+
+.recommended-product {
+    text-align: center;
+    padding: 0 !important;
+    border: none !important;
+}
+
+.card-header {
+    text-align: left;
+    padding-left: 5% !important;
+    border: solid !important;
+    border-width: 0.5px !important;
+    border-radius: 0 !important;
+}
+
+
